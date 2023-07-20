@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/* FULLY RESPONSİVE */
+
+:root {--default-white:rgb(205, 199, 191); --navbar: #1a1c1c; --footer:#242525; --default-red:hsla(351,62%,45%,1.00);}
+body {padding: 0; margin: 0; background-color: #202324;font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+html {margin:0; padding: 0;}
+.nav {background-color: var(--navbar); width: 100px; height: auto;}
+.wh {color: var(--default-white);}
+.dia{font-size: medium;}
+.large {font-size:large;}
+.wfull {width: 100%;}
+.test {background-color: red;}
+.cnt {display:table; margin:auto;}
+.bg-own {background-color: #201F1F;}
+.r{color: var(--default-red);}
+.pd1 {padding:1%;}
+.fr {float:left;}
+.larger {font-size:x-large}
+.row {width:300px; height:122px;  flex-direction: row;}
+a {text-decoration: none; color:var(--default-white); cursor:pointer;}
+.link{flex-direction: row; height: 20px; padding: 1%;}
+.content {width: auto; padding-right: 15px; padding-left: 15px;}
+.mt10 {margin-top:10px;}
+.pds {padding:10px;}
+.mt10p {margin-top:10px;}
+/* !! PALET ALINACAK */
+.r {color:var(--default-red);}
+/* !! */
+.contain {display: flex; flex-direction: row;}
+.wrap1 {border-radius: 5px;}
+.line1{text-decoration: overline 3px solid  var(--default-red);}
+/* ? TEST */
+.tcnt {text-align: center;}
+.visible{display:block;}
+.hidden {display: none;}
+.ln {cursor:pointer;}
+.ln:hover {text-decoration: overline 3px solid var(--default-red);}
+.footer { left: 0;bottom:0; height: 50px;  border-top: 3px solid var(--default-red); margin-top: 20px;}
+.br {border-radius: 5px;}
+
+/* MOBILE PHONES */
+@media (max-width: 599px) {
+ .image {width: 300px; height: 90px;}
+ #img1 {width: 325px; height: 300px;}
+ #img2 {width: 325px; height: 300px;}
+ .mt5 {margin-top: 3%;}
+}
+
+/* MEDIUM SIZED DEVICES */
+@media (min-width:600px) and (max-width:1200px) {
+    #img1 {width: 600px; height: 600px;}
+    #img2 {width: 600px; height: 600px;}
+    .mt5 {margin-top: 3%;}
+}
+/* PC */
+@media (min-width: 1201px) { 
+    .down {width: 700px; }
+    .col2{width: 900px;}
+    .col-extra {width:900px;}
+    .mt5 {margin-top: 0.2%;}
+}

@@ -1,0 +1,119 @@
+<!--Emre Mehmet ÇETİNEL 2023-->
+<!-- Developed For Valkyrie Entertainment <3 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- DYNAMIC LIBRARIES -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+  <!-- STATIC LIBRARIES -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link href="css/vke_styles.css" rel="stylesheet" type="text/css">
+  <!-- META PROPERTIES -->
+  <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Valkyrie Entertainment" />
+  <meta property="og:description" content="Valkyrie Entertainment is a video game development studio based in Seattle." />
+  <meta name="author" content="Valkyrie Entertainment"/>
+  <meta name="keywords" content="Valkyrie Entertainment, Valkyrie, Guns up, Game, Software, Ragnarok, God Of War, PS, Playstation, Playstation Studios">
+	<meta charset="UTF-8">
+	<title>Valkyrie Entertainment</title>
+</head>
+<body>
+  <header>
+    <div class="nav wfull wh large">
+      <div class="pd1">
+      <div class="contain cnt wfull">
+            <div class="image-wrapper fr cnt">
+              <a href="index.html"> <img class="image" src="images/PSS+VKE+Header.png" alt="Valkyrie Entertainment, Valkyrie, Guns up, Game, Software, Ragnarok, God Of War, PS, Playstation, Playstation Studios"></a>
+            </div>
+          </div>
+       </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="dnav wfull dia wh bg-own">
+     <div class="cnt pd1">
+      <div class="down">
+        <div class="cnt">
+          <div class="content fr larger ln "><a href="index.html" class="line1">About Us</a></div>
+          <div class="content fr larger  ln"><a href="https://careers.smartrecruiters.com/ValkyrieEntertainment" target="_blank" rel="noopener noreferrer">Jobs</a></div>
+          <div class="content fr larger  ln"><a href="https://jobs.smartrecruiters.com/oneclick-ui/company/ValkyrieEntertainment/job/1601219354?lang=en&sid=&dcr_ci=ValkyrieEntertainment"  target="_blank" rel="noopener noreferrer" >Contact</a></div>
+        </div>
+      </div>
+     </div>
+    </div>
+    <div class="content pd1 dia wh ">
+    <div class="col2  mt5 large tcnt cnt"><p>
+      Valkyrie Entertainment is a video game development studio based in Seattle. Since 2002, we have worked with world-class game developers and publishers and we are a proud member of PlayStation Studios.</p></div>
+      <div class="col-extra large tcnt cnt"><p>At our studio, you will have the opportunity to work with an experienced and diverse team while contributing to a wide variety of projects and styles.</p></div>
+      <div class="col3 wfull">
+      <div class="presentation-wrapper mt20s ">
+      <div class="cnt">
+        <div class="img-wrap br fr pds cnt"  ><img id="img1" class="br"  src=""  alt="Valkyrie Entertainment, Valkyrie, Guns up, Game, Software, Ragnarok, God Of War, PS, Playstation, Playstation Studios" name="slide"></div>
+      </div>
+      </div>
+    </div>
+    <div class="col4 wfull">
+      <div class="cnt">
+        <div class="pss-wrap">
+          <img src="images/PSStudios.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col5 wfull"></div>
+    <div class="col6 wfull"></div>
+    <div class="col7 wfull"></div> -->
+    </div>
+  </main>
+  <footer>
+    <div class="footer wfull">
+        <span class="dia">
+            <span class="wh">
+                <span class="cnt mt10p ">
+                    Valkyrie Entertainment © 2023 
+                </span>
+                <span class="cnt mt10p ">
+                <a class="r" href="https://www.playstation.com/en-us/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+              </span>
+            </span>
+        </span>
+    </div>
+    <div class="col-last2 cnt mt10p">
+      <a href="https://www.linkedin.com/company/valkyrie-entertainment/" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.png" alt=""></a>
+       <a href="https://twitter.com/valkyrieent" target="_blank" rel="noopener noreferrer"><img src="images/twitter.png" alt=""></a>
+   </div>
+</footer>
+<script>
+  var i = 0; 		
+var images = [];	
+var time = 3000;	
+
+images[0] = "images/GunsupTank.jpg";
+images[1] = "images/Ragnarok.jpg";
+
+
+function changeImg(){
+document.slide.src = images[i];
+
+
+if(i < images.length - 1){
+i++; 
+} else { 
+i = 0;
+}
+
+
+setTimeout("changeImg()", time);
+}
+
+
+window.onload=changeImg;
+</script>
+</body>
+</html>
